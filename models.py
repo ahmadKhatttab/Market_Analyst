@@ -1,7 +1,9 @@
+#بهذا الملف انا بعد ما انشأت البيس و خليتها جاهزة احكي كعها رح انشئ السكيما و الاعمدة الي فيها
 from sqlalchemy import Column, Integer, String, Float, DateTime
 from database import Base 
 from datetime import datetime
 
+#هون عملت كلاس و رح اصير اعمل منه اوبجيكت عشان احط داتا بهاي الاعمدة 
 class CarAd(Base):
     __tablename__ = 'car_ads'
     
